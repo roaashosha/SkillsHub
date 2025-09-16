@@ -21,6 +21,9 @@
                         	<li><a href="{{url("register")}}">@lang("web.signup")</a></li>
                         @endguest
 						@auth
+							@if (Auth::user()->role->name=='student')
+								<li><a href="{{url('profile')}}">@lang("web.profile")</a></li>
+							@endif
 							<li><a id = "logout-link"href="#">@lang("web.signout")</a></li>
 						@endauth
 						{{-- <input type="submit" value="{{__("web.signout")}}"></input> --}}

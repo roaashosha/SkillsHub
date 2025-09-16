@@ -51,7 +51,13 @@ return [
     "forgotPassTitle"=>"Forgot Password",
     "forgotPassLink"=>"Forgot Password ?",
 
-    "resetPassTitle"=>"Reset Password"
+    "resetPassTitle"=>"Reset Password",
+
+    "profile"=>"Profile",
+    
+    "examName"=>"Exam Name",
+    "examScore"=>"Score",
+    "examTime"=>"Time (mins)",
 
 
     

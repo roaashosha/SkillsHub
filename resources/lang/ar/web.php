@@ -51,7 +51,9 @@ return [
     "forgotPassTitle"=>"نسيت كلمة المرور",
     "forgotPassLink"=>"هل نسيت كلمة السر؟",
 
-    "resetPassTitle"=>"اعادة تعيين كلمة المرور"
+    "resetPassTitle"=>"اعادة تعيين كلمة المرور",
+
+    "profile"=>"الملف الشخصي",
 
 
 ];
