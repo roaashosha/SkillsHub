@@ -55,5 +55,11 @@ return [
 
     "profile"=>"الملف الشخصي",
 
+    "examName"=>"اسم الامتحان",
+    "examScore"=>"الدرجة",
+    "examTime"=>"الوقت (دقائق)",
+
+    "dashboard"=>"لوحة التحكم"
+
 
 ];

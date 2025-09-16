@@ -23,6 +23,8 @@
 						@auth
 							@if (Auth::user()->role->name=='student')
 								<li><a href="{{url('profile')}}">@lang("web.profile")</a></li>
+							@else
+							<li><a href="{{url('dashboard')}}">@lang("web.dashboard")</a></li>
 							@endif
 							<li><a id = "logout-link"href="#">@lang("web.signout")</a></li>
 						@endauth

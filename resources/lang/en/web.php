@@ -59,6 +59,8 @@ return [
     "examScore"=>"Score",
     "examTime"=>"Time (mins)",
 
+    "dashboard"=>"Dashboard"
+
 
     
 ];

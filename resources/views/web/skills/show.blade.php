@@ -41,6 +41,7 @@
 
                     <!-- row -->
                     <div class="row">
+                        @include('web.inc.error');
                         @foreach ($skill->exams as $exam )
                             <!-- single exam -->
                             <div class="col-md-3">
