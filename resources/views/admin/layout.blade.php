@@ -84,10 +84,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{url("/dashboard/categories")}}" class="nav-link">
+              <i class="nav-icon fas fa-list"></i>
               <p>
-                Page three
+                Categories
               </p>
             </a>
           </li>
